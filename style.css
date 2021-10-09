@@ -1,0 +1,17 @@
+.div-style{
+    background-color: black;
+    text-align: center;
+    text-decoration: italic;
+    color: blanchedalmond;
+    padding: 10px;
+    transition: 0.1ms;
+}
+
+.div2-style{
+    background-color: burlywood;
+    color: black;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
