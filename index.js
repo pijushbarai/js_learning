@@ -43,3 +43,33 @@ listener.addEventListener("click", function () {
     
 
 });
+
+var d3 = document.querySelector(".div-3");
+d3.addEventListener("mouseover",function(){
+    d3.classList.add("div3-style");
+});
+d3.addEventListener("mouseout",function(){
+    d3.classList.remove("div3-style");
+});
+
+///////////////////////////////////////////////////////
+//event listener & audio player making
+///////////////////////////////////////////////////////
+
+// var audioBtn = document.querySelector(".btn");
+// console.log(audioBtn.length);
+
+for(var i = 0; i < 3; i++){
+    document.querySelectorAll(".my-btn")[i].addEventListener("click",function name(params) {
+        var text = this.innerHTML;
+        
+        switch(text){
+            case "a":
+                //document.write("HI i am working");
+                var audio = new Audio("sounds/a.mp3");
+                audio.play();
+                break;
+
+        }
+    });
+}
