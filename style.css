@@ -1,32 +1,8 @@
-.div-style{
+.texts{
+    color: aqua;
+    background-color: red;
+}
+.text2{
+    color :white;
     background-color: black;
-    text-align: center;
-    text-decoration: italic;
-    color: blanchedalmond;
-    padding: 10px;
-    transition: 0.1ms;
-}
-
-.div2-style{
-    background-color: burlywood;
-    color: black;
-    padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-.div3-style{
-    background-color: black;
-    padding: 20%;
-    color: white;
-    
-}
-
-.audio{
-    background-color: blanchedalmond;
-    color: black;
-    text-align: center;
-    padding: 10%;
-    margin: auto;
 }
